@@ -57,8 +57,8 @@
 	{@render children()}
 </main>
 
-<footer class="bg-black py-8">
-	<div class="container mx-auto flex">
-		<p class="text-white">&copy; 2026 TohoFes. | tohofes.jp All Rights Reserved. 本サイトの無断転載は、固くこれを禁じます。</p>
+<footer class="bg-black py-8 px-4 md:px-0">
+	<div class="container mx-auto flex ">
+		<p class="text-white">&copy; 2026 TohoFes. | tohofes.jp</p>
 	</div>
 </footer>
