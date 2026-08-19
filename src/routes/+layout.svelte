@@ -20,14 +20,35 @@
 			<li>
 				<a href="/about" class="ml-3 text-sm tracking-wider transition">About</a>
 			</li>
-			<li>
-				<a href="/blog" class="ml-3 text-sm tracking-wider transition">Blog</a>
+			<!--s: souce-c-link-pc-->
+			<li class="hidden md:flex">
+				<span>|</span>
 			</li>
-			<li>
-				<a href="/" class="ml-3 text-sm tracking-wider transition" target="_blank"
-					>Docs<i class="fa-solid fa-arrow-up-right-from-square ml-1"></i></a
+			<li class="hidden md:flex">
+				<a
+					href="https://github.com/TohoComputerClub/tohofes.jp-portal/"
+					class="text-sm tracking-wider transition"
+					target="_blank"
+					title="Github"><i class="fa-brands fa-github"></i></a
 				>
 			</li>
+			<li class="hidden md:flex">
+				<a
+					href="https://gitlab.atserver186.jp/t-aoki186/tohofes.jp-portal/"
+					class="mr-4 text-sm tracking-wider transition"
+					target="_blank"
+					title="Gitlab"><i class="fa-brands fa-gitlab"></i></a
+				>
+			</li>
+			<!--e: souce-c-link-pc-->
+			<!---->
+			<!--s: souce-c-link-sp-->
+			<li class="flex md:hidden">
+				<a href="/sauce" class="mr-4 text-xs tracking-wider transition" title="Souce"
+					><i class="fa-solid fa-code"></i></a
+				>
+			</li>
+			<!--e: souce-c-link-sp-->
 		</nav>
 	</div>
 </header>
