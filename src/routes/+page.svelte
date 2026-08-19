@@ -10,3 +10,10 @@
         </div>
     </div>
 </section>
+<hr />
+<section class="container mx-auto flex flex-col">
+    <div class="flex flex-col mx-4 md:mx-20">
+        <h2 class="text-2xl" id="about">当サイトについて</h2>
+        <p>サイトの説明</p>
+    </div>
+</section>
