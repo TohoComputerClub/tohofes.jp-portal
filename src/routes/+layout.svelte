@@ -18,7 +18,7 @@
 		<nav class="ml-auto flex list-none items-center gap-5 whitespace-nowrap transition">
 			<li><a href="/" class="ml-1 text-sm tracking-wider transition">Home</a></li>
 			<li>
-				<a href="/about" class="ml-3 text-sm tracking-wider transition">About</a>
+				<a href="/#about" class="ml-3 text-sm tracking-wider transition">About</a>
 			</li>
 			<!--s: souce-c-link-pc-->
 			<li class="hidden md:flex">
@@ -44,7 +44,7 @@
 			<!---->
 			<!--s: souce-c-link-sp-->
 			<li class="flex md:hidden">
-				<a href="/sauce" class="mr-4 text-xs tracking-wider transition" title="Souce"
+				<a href="/#sauce" class="mr-4 text-xs tracking-wider transition" title="Souce"
 					><i class="fa-solid fa-code"></i></a
 				>
 			</li>
