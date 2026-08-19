@@ -20,6 +20,58 @@
     </div>
 </section>
 <hr />
+<section class="container mx-auto flex flex-col">
+    <div class="flex flex-col mx-4 my-4 md:mx-20">
+        <h2 class="text-2xl" id="about">SNS / リンク</h2>
+        <div class="grid grid-cols-1 gap-4 my-4 md:grid-cols-2 lg:grid-cols-3">
+            <a
+			    href="https://www.toho.ed.jp/" target="_blank"
+			    class="block rounded-lg border p-4 transition hover:bg-gray-100 dark:hover:bg-gray-300"
+		    >
+			    <div class="flex items-center justify-between">
+				    <div class="flex items-center gap-3">
+					    <i class="fa-solid fa-arrow-up-right-from-square mr-1 text-lg"></i>
+					    <span class="font-semibold">桐朋中学校・高等学校HP</span>
+				    </div>
+			    </div>
+		    </a>
+		    <a
+			    href="https://www.instagram.com/tohofes_2026/" target="_blank"
+			    class="block rounded-lg border p-4 transition hover:bg-gray-100 dark:hover:bg-gray-300"
+		    >
+			    <div class="flex items-center justify-between">
+				    <div class="flex items-center gap-3">
+					    <i class="fa-brands fa-instagram text-lg"></i>
+					    <span class="font-semibold">桐朋祭公式Instagram</span>
+				    </div>
+			    </div>
+		    </a>
+            <a
+			    href="https://x.com/tohofes_2026" target="_blank"
+			    class="block rounded-lg border p-4 transition hover:bg-gray-100 dark:hover:bg-gray-300"
+		    >
+			    <div class="flex items-center justify-between">
+				    <div class="flex items-center gap-3">
+					    <i class="fa-brands fa-x-twitter text-lg"></i>
+					    <span class="font-semibold">桐朋祭公式X</span>
+				    </div>
+			    </div>
+		    </a>
+            <a
+			    href="https://x.com/tcca_main" target="_blank"
+			    class="block rounded-lg border p-4 transition hover:bg-gray-100 dark:hover:bg-gray-300"
+		    >
+			    <div class="flex items-center justify-between">
+				    <div class="flex items-center gap-3">
+					    <i class="fa-brands fa-x-twitter text-lg"></i>
+					    <span class="font-semibold">桐朋コンピューター部公式X</span>
+				    </div>
+			    </div>
+		    </a>
+        </div>
+    </div>
+</section>
+<hr />
 <section class="container mx-auto flex flex-col md:hidden">
     <div class="flex flex-col mx-4 mt-4 md:mx-20">
         <h2 class="text-2xl" id="sauce">ソースコード</h2>
