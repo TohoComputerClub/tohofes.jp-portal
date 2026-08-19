@@ -12,16 +12,18 @@
 </section>
 <hr />
 <section class="container mx-auto flex flex-col">
-    <div class="flex flex-col mx-4 md:mx-20">
+    <div class="flex flex-col mx-4 my-4 md:mx-20">
         <h2 class="text-2xl" id="about">当サイトについて</h2>
-        <p>サイトの説明</p>
+        <p class="mt-4">
+            サイトの説明
+        </p>
     </div>
 </section>
 <hr />
 <section class="container mx-auto flex flex-col md:hidden">
-    <div class="flex flex-col mx-4 md:mx-20">
+    <div class="flex flex-col mx-4 mt-4 md:mx-20">
         <h2 class="text-2xl" id="sauce">ソースコード</h2>
-        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div class="grid grid-cols-1 gap-4 my-4 md:grid-cols-2 lg:grid-cols-3">
 		    <a
 			    href="https://github.com/TohoComputerClub/tohofes.jp-portal/" target="_blank"
 			    class="block rounded-lg border p-4 transition hover:bg-gray-100 dark:hover:bg-gray-300"
