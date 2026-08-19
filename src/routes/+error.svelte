@@ -4,16 +4,24 @@
 
 </script>
 
-<h1>404 - ページが見つかりません</h1>
-
-{#if $page.status === 404}
-	<p>お探しのページは見つかりませんでした。</p>
-	<p>以下のリンクをご確認ください：</p>
-
-	<!-- 生成された動的リンク -->
-	<a href='https://75th.tohofes.jp{currentPath}'>
-		75th.tohofes.jp{currentPath}
-	</a>
-{:else}
-	<p>エラーが発生しました: {$page.status}</p>
-{/if}
+<section class="container mx-auto mt-20">
+    <div class="flex flex-col mx-4 md:mx-20">
+        <h1 class="text-8xl mx-auto mt-4">404</h1>
+        <h1 class="text-5xl mx-auto mt-2">Not Found</h1>
+        <h2 class="text-3xl mx-auto mt-4">ページが見つかりません</h2>
+        <hr class="my-10"/>
+        {#if $page.status === 404}
+            <p class="text-lg mb-4">お探しのページは見つかりませんでした。</p>
+            <p class="text-lg">過去の桐朋祭ホームページにアクセスしたい場合は以下のリンクをご確認ください。</p>
+            <a href='https://75th.tohofes.jp{currentPath}' class="text-lg w-fit transition-all hover:underline">
+                <i class="fa-solid fa-arrow-up-right-from-square mr-1 text-sm"></i>https://75th.tohofes.jp{currentPath}
+            </a>
+        {:else}
+            <p>エラーが発生しました: {$page.status}</p>
+        {/if}
+        <hr class="my-10"/>
+        <a href='/' class="text-lg w-fit transition-all hover:underline">
+            <i class="fa-solid fa-house text-sm"></i>トップへ戻る
+        </a>
+    </div>
+</section>
