@@ -13,7 +13,7 @@
 <hr />
 <section class="container mx-auto flex flex-col">
     <div class="flex flex-col mx-4 my-4 md:mx-20">
-        <h2 class="text-2xl" id="about">SNS / リンク</h2>
+        <h2 class="text-2xl" id="links">SNS / リンク</h2>
         <div class="grid grid-cols-1 gap-4 my-4 md:grid-cols-2 lg:grid-cols-3">
             <a
 			    href="https://www.toho.ed.jp/" target="_blank"
