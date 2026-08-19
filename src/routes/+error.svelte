@@ -6,8 +6,8 @@
 
 <section class="container mx-auto mt-20">
     <div class="flex flex-col mx-4 md:mx-20">
-        <h1 class="text-8xl mx-auto mt-4">404</h1>
-        <h1 class="text-5xl mx-auto mt-2">Not Found</h1>
+        <h1 class="text-6xl mx-auto mt-4 md:text-8xl">404</h1>
+        <h1 class="text-3xl mx-auto mt-2 md:text-5xl">Not Found</h1>
         <h2 class="text-3xl mx-auto mt-4">ページが見つかりません</h2>
         <hr class="my-10"/>
         {#if $page.status === 404}

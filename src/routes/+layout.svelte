@@ -13,12 +13,12 @@
 <header class="fixed items-center top-4 left-1/2 z-20 w-[90%] -translate-x-1/2 rounded-4xl border border-black/10 bg-white/80 backdrop-blur-md transition-all duration-500 md:w-[80%] lg:w-[60%]">
 	<div class="flex p-2">
 		<a href="/" class="flex transition h-12">
-			<p class="m-auto ml-2 hidden md:block">桐朋祭</p>
+			<p class="m-auto ml-2 block">桐朋祭</p>
 		</a>
 		<nav class="ml-auto flex list-none items-center gap-5 whitespace-nowrap transition">
 			<li><a href="/" class="ml-1 text-sm tracking-wider transition">Home</a></li>
 			<li>
-				<a href="/#about" class="ml-3 text-sm tracking-wider transition">About</a>
+				<a href="/#links" class="ml-3 text-sm tracking-wider transition">Links</a>
 			</li>
 			<!--s: souce-c-link-pc-->
 			<li class="hidden md:flex">
@@ -57,8 +57,8 @@
 	{@render children()}
 </main>
 
-<footer class="bg-black py-8">
-	<div class="container mx-auto flex">
-		<p class="text-white">&copy; 2026 TohoFes. | tohofes.jp All Rights Reserved. 本サイトの無断転載は、固くこれを禁じます。</p>
+<footer class="bg-black py-8 px-4 md:px-0">
+	<div class="container mx-auto flex ">
+		<p class="text-white">&copy; 2026 TohoFes. | tohofes.jp</p>
 	</div>
 </footer>
