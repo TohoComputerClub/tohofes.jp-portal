@@ -59,6 +59,28 @@
 				    </div>
 			    </div>
 		    </a>
+            <a
+			    href="https://github.com/TohoComputerClub" target="_blank"
+			    class="block rounded-lg border p-4 transition hover:bg-gray-100 dark:hover:bg-gray-300"
+		    >
+			    <div class="flex items-center justify-between">
+				    <div class="flex items-center gap-3">
+					    <i class="fa-brands fa-github text-lg"></i>
+					    <span class="font-semibold">桐朋コンピューター部公式Github</span>
+				    </div>
+			    </div>
+		    </a>
+            <a
+			    href="https://github.com/t-aoki186" target="_blank"
+			    class="block rounded-lg border p-4 transition hover:bg-gray-100 dark:hover:bg-gray-300"
+		    >
+			    <div class="flex items-center justify-between">
+				    <div class="flex items-center gap-3">
+					    <i class="fa-brands fa-github text-lg"></i>
+					    <span class="font-semibold">開発者Github</span>
+				    </div>
+			    </div>
+		    </a>
         </div>
     </div>
 </section>
