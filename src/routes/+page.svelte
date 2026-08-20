@@ -1,6 +1,6 @@
 <section class="container mx-auto flex flex-col justify-center min-h-screen">
     <div class="flex flex-col mx-4 md:mx-20">
-        <h2 class="mx-auto text-3xl">Comming Soon ...</h2>
+        <!--<h2 class="mx-auto text-3xl">Coming Soon ...</h2>-->
         <br />
         <h2 class="text-xl mb-2 mx-auto"><i class="fa-solid fa-folder text-lg mr-1"></i>過去の公式ホームページ</h2>
         <div class="flex mx-auto">
