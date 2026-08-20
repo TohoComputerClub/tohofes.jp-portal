@@ -1,7 +1,8 @@
 <script>
 	import { page } from '$app/stores';
-	let currentPath = $derived($page.url.pathname)
+	let currentPath = $derived($page.url.pathname);
 
+    export const prerender = true;
 </script>
 
 <section class="container mx-auto mt-20">
