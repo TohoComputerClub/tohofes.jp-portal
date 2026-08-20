@@ -1,6 +1,6 @@
 <script lang="ts">
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/favicon.png';
 
 	let { children } = $props();
 </script>
@@ -8,12 +8,18 @@
 <svelte:head>
 	<link rel="stylesheet" href="https://cdn.atserver186.jp/libs/fontawesome/css/all.min.css" />
 	<link rel="icon" href={favicon} />
+	<!--s: SEO-->
+	<title>桐朋祭</title>
+	<meta name="description" content="桐朋祭" />
+	<!--e: SEO-->
 </svelte:head>
 
 <header class="fixed items-center top-4 left-1/2 z-20 w-[90%] -translate-x-1/2 rounded-4xl border border-black/10 bg-white/80 backdrop-blur-md transition-all duration-500 md:w-[80%] lg:w-[60%]">
 	<div class="flex p-2">
-		<a href="/" class="flex transition h-12">
-			<p class="m-auto ml-4 block">桐朋祭</p>
+		<a href="/" class="flex transition">
+			<img src="https://pic.atserver186.jp/img/tohofes/tcc.svg" alt="桐朋コンピューター部ロゴ" class="h-10 ml-4">
+			<span class="my-auto mx-4 pb-1">|</span>
+			<p class="m-auto block">桐朋祭</p>
 		</a>
 		<nav class="ml-auto flex list-none items-center gap-5 whitespace-nowrap transition">
 			<li><a href="/" class="ml-1 text-sm tracking-wider transition">Home</a></li>
